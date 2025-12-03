@@ -1,0 +1,4 @@
+﻿name,password,email,failed_login_attemps,logged_in,role
+root,azerty,root@example.com,0,False,admin
+alice,123456,alice@example.com,0,False,user
+bob,qsdfgh,bob@example.com,0,False,user
