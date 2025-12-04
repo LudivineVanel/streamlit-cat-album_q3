@@ -100,7 +100,8 @@ def cat_album_page():
     # Chargement et affichage des images côte à côte
     # J'utilise des URLs ici pour la démonstration :
     url1 = "https://cdn.generationvoyage.fr/2025/02/Golden-Gate-de-San-Francisco-1000x649.jpeg"
-    url2 = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd49EOl1Bj7_yT7CqK-6Z8ZeGYUSyA4NkUaw&s
+    url2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd49EOl1Bj7_yT7CqK-6Z8ZeGYUSyA4NkUaw&s"
+    url3 = "https://www.google.com/imgres?q=las%20vegas&imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-m%2F1280%2F2a%2F34%2F2d%2F28%2Fcaption.jpg&imgrefurl=https%3A%2F%2Fwww.tripadvisor.fr%2FAttractions-g45963-Activities-c47-t19-Las_Vegas_Nevada.html&docid=aBqYIHeYjG8KzM&tbnid=9Cq1n0mSVVdccM&vet=12ahUKEwiaicSbyqORAxXVRkEAHTFOHGsQM3oECB4QAA..i&w=1280&h=850&hcb=2&ved=2ahUKEwiaicSbyqORAxXVRkEAHTFOHGsQM3oECB4QAA"
     # Affichage des images dans les colonnes
     with col1:
         st.image(url1, caption="San Francisco", use_column_width="always")
@@ -158,6 +159,7 @@ def main():
 
 if __name__ == "__main__":
     main() 
+
 
 
 
