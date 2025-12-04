@@ -143,7 +143,7 @@ def main():
                 st.rerun()
 
             # Album Photo
-            if st.button("😺 Les photos de mon chat", key="nav_cat", type="primary" if st.session_state['page'] == 'cat_album' else 'secondary'):
+            if st.button("Les photos de mon voyage", key="nav_cat", type="primary" if st.session_state['page'] == 'cat_album' else 'secondary'):
                 st.session_state['page'] = 'cat_album'
                 st.rerun()
 
@@ -163,6 +163,7 @@ def main():
 
 if __name__ == "__main__":
     main() 
+
 
 
 
